@@ -3,37 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AISWARYA E S | Portfolio</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    <!-- Navbar -->
     <header>
-        <h1>Welcome to My Portfolio</h1>
         <nav>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#internships">Experiences</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <section>
-            <h2>About Me</h2>
-            <p>This is where you can write about yourself.</p>
-        </section>
-        <section>
-            <h2>Projects</h2>
-            <p>Showcase your projects here.</p>
-        </section>
-    </main>
 
-    <footer>
-        <p>&copy; 2024 My Portfolio</p>
-    </footer>
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi! I’m Aiswarya E S, a Computer Science student just starting my journey in the world of technology. While I’m still building my skills and knowledge, I’m deeply passionate about learning how to code and solve problems with technology. Every day brings new opportunities to explore, experiment, and grow as I work on developing a strong foundation in programming and software development.</p>
+    </section>
 
-    <script src="js/main.js"></script>
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>As a computer science enthusiast, my mission is to apply what I’ve learned to real-world problems and continuously expand my knowledge. I may be at the beginning of my tech journey, but I’m committed to improving and learning something new every day. I’ve started with programming languages like Python, Java, and C, and I’m excited to keep expanding my skills through projects and hands-on practice.</p>
+    </section>
+
+     <!-- Skills Section -->
+     <section id="skills">
+        <h2 class="centered">Programming Languages</h2>
+        <p class="left-align"><strong>Python:</strong> Proficient in building scripts and solving complex problems using Python. Completed projects involving data analysis and automation.</p>
+        <p class="left-align"><strong>Java:</strong> Strong foundation in object-oriented programming. Applied in academic projects to develop robust applications.</p>
+        <p class="left-align"><strong>C:</strong> Solid understanding of core concepts like memory management and pointers. Used in coursework and assignments.</p>
+        <br><br>
+        <h2 class="centered">Web Development</h2>
+        <p class="left-align"><strong>HTML & CSS:</strong> Created responsive, user-friendly websites with modern design principles.</p>
+        <p class="left-align"><strong>JavaScript:</strong> Built dynamic features like form validation and DOM manipulation to enhance interactivity.</p>
+        <p class="left-align"><strong>SQL:</strong> Designed and optimized databases for efficient data handling in web applications.</p>
+        <br><br>
+        <h2 class="centered">Tools & Technologies</h2>
+        <p class="left-align"><strong>GitHub:</strong> Experienced in version control, collaborating on team projects, and managing repositories.</p>
+        <p class="left-align"><strong>VS Code:</strong> Skilled in using extensions to streamline coding across multiple languages, enhancing productivity.</p>
+        <br><br>
+        <h2 class="centered">Collaboration & Problem-Solving</h2>
+        <p class="left-align"><strong>A strong team player:</strong> Comfortable working with others on challenging problems, and continuously improving my communication and collaboration skills.</p>
+        <p class="left-align"><strong>Participate in coding competitions:</strong> (IEEE Xtreme) to sharpen problem-solving abilities under pressure.</p>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="https://github.com/yourusername/project1" target="_blank">Emergency-Aid Website</a> - A website providing emergency measures during crisis situations.</li>
+            <li><a href="https://github.com/yourusername/project2" target="_blank">Student Database</a> - A student record management system. </li>
+        </ul>
+    </section>
+
+    <!-- Experiences Section -->
+    <section id="internships">
+        <h2>Internships and Work Experiences</h2>
+        <ul>
+            <li>Junior Software Engineering Intern at TRANZMEO (2023)</li>
+            <li>iOS App Development Intern at Iplanet Education (2022)</li>
+        </ul>
+    </section>
+
+     <!-- Certifications Section -->
+     <section id="certifications">
+        <h2>Certifications</h2>
+        <p>Business English Certificate – B1 Level from Cambridge Assessments</p>
+        <p>The Joy of Computing using Python from NPTEL</p>
+        <p>Fundamentals of Java Programming from Broad Infinity</p>
+    </section>
+
+   
+
+    <!-- Resume Section -->
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="path_to_resume.pdf" download>Download My Resume</a></p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <script src="../js/main.js"></script>
 </body>
 </html>
